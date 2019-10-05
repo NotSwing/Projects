@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+}
+#navbar > p{
+  text-align: center;
+  position: absolute;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-style: italic;
+  width: 100%;
+  margin-right: 50px;
+  top: 10px;
+
+}
+#navbar{
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+
+}
+
+#navbar a{
+  color: white;
+}
+
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+ float: right;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+
+}
+
+#navbar ul li ul{
+  visibility: hidden;
+  position: absolute;
+  display: none;
+}
+
+#navbar ul li:hover > ul,
+        ul li ul:hover{
+  visibility: visible;
+  opacity: 1;
+  display: inline-block;
+  background-color: #444;
+}
+#navbar ul li a:hover{
+  color: orange;
+}
+
+#logo{
+  width: 70px;
+  height: 70px;
+  color: white;
+  margin
+}
+
+section#about {
+  height: 500px;
+  background-color: silver;
+  overflow: hidden;
+}
+
+div.image{
+  float: left;
+  min-height: 100%;
+  width: 40%;
+  overflow: hidden;
+}
+
+div.info{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  padding: 30px 30px;
+  padding-top: 100px;
+  overflow: hidden;
+
+}
+
+div.info > p{
+  font-size: 20px;
+  text-align: left;
+
+}
+#personality{
+  height:290px;
+  overflow: hidden;
+
+}
+div.traits{
+    float: left;
+    width: 25%;
+    padding: 70px 0px 100px 30px;
+    text-align: center;
+
+}
+
+div.traits ul li{
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  list-style-image: url(button.jpeg);
+
+}
+
+div.traits ul li > b{
+  color: purple;
+}
+
+.bg-primary{
+  background-color: #DCDCDC;
+  color: black;
+}
+
+.bg-light{
+  background-color: #f4f4f4;
+  color: black;
+}
